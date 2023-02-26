@@ -1,0 +1,97 @@
+*{padding: 0;
+  margin: 0;
+  
+}
+header {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(image/red-black-brush-stroke-banner-background-perfect-canva.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+nav{
+    width:100%;
+    height:100px;
+    color:white;
+    display:flex;
+    text-align:center;
+    justify-content:space-around;
+    
+}
+.logo{
+	font-family: 'Gajraj One', cursive;
+    font-size:30px;
+    letter-spacing:2px;
+    margin-top: 14px;
+}
+.menu{
+    margin-top: 14px;
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+    padding:10px 20px;
+    font-size: 18px;
+    position:relative;
+}
+.menu a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    border-bottom:2px solid indianred;
+    transition:0.4s linear;
+}
+.menu a:hover:before{
+    width:90%;
+
+}
+
+.register{
+    margin-top: 14px;
+}
+.register a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 18px;
+	background: rgb(115, 60, 60);
+	border-radius: 10px;
+    transition:0.4s;
+}
+.register a:hover{
+    background:transparent;
+    border:1px solid indianred;
+   
+}
+.h-text {
+	max-width: 700px;
+	color: #bf7b6b;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 18px;
+    text-align:center;
+}
+.h-text span{
+    letter-spacing:9px;
+}
+.h-text h1{
+    font-size:50px;
+}
+.h-text a {
+	text-decoration: none;
+	background: indianred;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	letter-spacing: 5px;
+    transition:0.4s;
+}
+.h-text a:hover{
+    background:transparent;
+    border:1px solid indianred;
+}
